@@ -81,7 +81,6 @@ Step 2 - Ensure Connectivity between the Client and Domain Controller
   
 <img src="https://i.imgur.com/qnYM0ZO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<img src="https://i.imgur.com/bduSZeH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <img src="https://i.imgur.com/EjJ6lWl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
