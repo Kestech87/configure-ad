@@ -21,18 +21,55 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Step 1 - Resources in Azure
+- Step 2 - Ensure Connectivity between the Client and Domain Controller
+- Step 3 - Install Active Directory
+- Step 4 - Create an Admin and Normal User Account in AD
+- Step 5 - Join Client-1 to your domain (mydomain.com)
+- Step 6 - Setup Remote Desktop for non-administrative users on Client-1
+- Step 7 - Create several additional users and attempt to log into client-1 with one of the users
 
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  Step 1 - Resources in Azure
+  
+<img src="https://i.imgur.com/jsIifQR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+<img src="https://i.imgur.com/Ln8rai9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+<img src="https://i.imgur.com/wP8ZV4l.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+<img src="https://i.imgur.com/tR5ramh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/azawNfy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/tV5TG6a.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/Vyk7Mzc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/WHIxqYc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/Zx3YXtz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/6yZJpfd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
+
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+1) Create the Domain Controller VM (Windows Server 2022) named “DC-1”
+  
+   - Take note of the Resource Group and Virtual Network (Vnet) that get created at this time
+
+2) Set Domain Controller’s NIC Private IP address to be static
+
+3) Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group and Vnet that was      created in Step 1A
+
+4) Ensure that both VMs are in the same Vnet (you can check the topology with Network Watcher
+
 </p>
 <br />
 
