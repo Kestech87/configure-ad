@@ -132,7 +132,51 @@ Step 3 - Install Active Directory
    
    - Promote as a DC: Setup a new forest as mydomain.com (can be anything, just           remember what it is)
 
-   - Restart and then log back into DC-1 as user: mydomain.com\Kessielab
+   - Restart and then log back into DC-1 as user: mydomain.com\Kessielab 
+</p>
+
+<p>
+
+Step 4 - Create an Admin and Normal User Account in Active Directory
+
+<img src="https://i.imgur.com/w0SwJTY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/DkFs07v.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/D33HWa2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/Wx2wp7t.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/incj9rX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/2K3KF1j.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/28Beaql.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/1MzyW79.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+
+In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES”
+
+
+Create a new OU named “_ADMINS”
+
+
+Create a new employee named “Nana Kessie” (same password) with the username of “nana_admin”
+
+Add nana_admin to the “Domain Admins” Security Group
+
+Log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain.com\nana_admin”
+
+User jane_admin as your admin account from now on
+
+
+
   
 </p>
+
+
+  
+
 <br />
