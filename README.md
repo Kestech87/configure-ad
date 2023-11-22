@@ -103,9 +103,36 @@ Step 2 - Ensure Connectivity between the Client and Domain Controller
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+Step 3 - Install Active Directory
+
+<img src="https://i.imgur.com/567ICjV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/oxXWaiG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/c76T6iT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/YJWW4os.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/xYyZCdQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/vuhA6WI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/8e5NJI4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/REtTj7z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/WVLEMze.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
+
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  
+1) Login to DC-1 and install Active Directory Domain Services
+   
+   - Promote as a DC: Setup a new forest as mydomain.com (can be anything, just           remember what it is)
+
+   - Restart and then log back into DC-1 as user: mydomain.com\Kessielab
+  
 </p>
 <br />
