@@ -157,19 +157,19 @@ Step 4 - Create an Admin and Normal User Account in Active Directory
 
 
 
-In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES”
+1) In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES”
 
 
-Create a new OU named “_ADMINS”
+ - Create a new OU named “_ADMINS”
 
 
-Create a new employee named “Nana Kessie” (same password) with the username of “nana_admin”
+ - Create a new employee named “Nana Kessie” (same password) with the username of          “nana_admin”
 
-Add nana_admin to the “Domain Admins” Security Group
+ - Add nana_admin to the “Domain Admins” Security Group
 
-Log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain.com\nana_admin”
+ - Log out/close the Remote Desktop connection to DC-1 and log back in as                  “mydomain.com\nana_admin”
 
-User jane_admin as your admin account from now on
+ - User nana_admin as your admin account from now on
 
 
 
