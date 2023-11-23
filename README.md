@@ -174,7 +174,8 @@ Step 4 - Create an Admin and Normal User Account in Active Directory
 </p>
 
 <p>
-   Step 5 - Join Client-1 to your domain (mydomain.com)
+  
+  Step 5 - Join Client-1 to your domain (mydomain.com)
 
 
    <img src="https://i.imgur.com/28Beaql.png" height="80%" width="80%" alt="Disk     Sanitization Steps"/>
@@ -190,7 +191,63 @@ Step 4 - Create an Admin and Normal User Account in Active Directory
    - Login to the Domain Controller (Remote Desktop) and verify Client-1 shows up in         Active Directory Users and Computers (ADUC) inside the “Computers” container on         the root of the domain
     
    - Create a new OU named “_CLIENTS” and drag Client-1 into there (Step is not really       necessary, just for organizational purposes. I guess I skipped this in the lab!)
+</p>
 
+
+
+<p>
+
+  
+ Step 6 - Setup Remote Desktop for non-administrative users on Client-1
+
+ <img src="https://i.imgur.com/nf8kbCl.png" height="80%" width="80%" alt="Disk  Sanitization Steps"/>
+
+ <img src="https://i.imgur.com/ei2O3nW.png" height="80%" width="80%" alt="Disk  Sanitization Steps"/>
+
+ <img src="https://i.imgur.com/4pWc0pJ.png" height="80%" width="80%" alt="Disk  Sanitization Steps"/>
+
+ <img src="https://i.imgur.com/8SiMPNT.png" height="80%" width="80%" alt="Disk  Sanitization Steps"/>
+
+ <img src="https://i.imgur.com/uHj1PdD.png" height="80%" width="80%" alt="Disk  Sanitization Steps"/>
+
+ <img src="https://i.imgur.com/m7Lfky6.png" height="80%" width="80%" alt="Disk  Sanitization Steps"/>
+
+ <img src="https://i.imgur.com/znMpzuX.png" height="80%" width="80%" alt="Disk  Sanitization Steps"/>
+
+ <img src="https://i.imgur.com/bOnGXp2.png" height="80%" width="80%" alt="Disk  Sanitization Steps"/>
+
+ <img src="https://i.imgur.com/fMEGntU.png" height="80%" width="80%" alt="Disk  Sanitization Steps"/>
+
+ <img src="https://i.imgur.com/ivu5kD3.png" height="80%" width="80%" alt="Disk  Sanitization Steps"/>
+
+ <img src="https://i.imgur.com/AVDErG5.png" height="80%" width="80%" alt="Disk  Sanitization Steps"/>
+
+ <img src="https://i.imgur.com/AFsLcYy.png" height="80%" width="80%" alt="Disk  Sanitization Steps"/>
+
+ <img src="https://i.imgur.com/VBei4x8.png" height="80%" width="80%" alt="Disk  Sanitization Steps"/>
+
+ <img src="https://i.imgur.com/TZc1NuZ.png" height="80%" width="80%" alt="Disk  Sanitization Steps"/>
+
+ <img src="https://i.imgur.com/QvK6CDJ.png" height="80%" width="80%" alt="Disk  Sanitization Steps"/>
+
+ <img src="https://i.imgur.com/lYifPsY.png" height="80%" width="80%" alt="Disk  Sanitization Steps"/>
+
+ <img src="https://i.imgur.com/KOSQ3AE.jpeg" height="80%" width="80%" alt="Disk  Sanitization Steps"/>
+
+ <img src="https://i.imgur.com/YV5naQi.png" height="80%" width="80%" alt="Disk  Sanitization Steps"/>
+
+1) Log into Client-1 as mydomain.com\nana_admin and open system properties
+
+    - Click “Remote Desktop”
+
+    - Allow “domain users” access to remote desktop
+
+    - You can now log into Client-1 as a normal, non-administrative user now
+
+    - Normally you’d want to do this with Group Policy that allows you to change MANY         systems at once (maybe a future lab)
+
+
+ 
 
 </p>
 
