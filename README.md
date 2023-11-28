@@ -3,7 +3,7 @@
 </p>
 
 <h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+In this tutorial we will set up Active Directory within Azure Virtual Machines.<br />
 
 
 
@@ -66,18 +66,19 @@ This tutorial outlines the implementation of on-premises Active Directory within
   
    - Take note of the Resource Group and Virtual Network (Vnet) that get created at this time
 
-   - Set Domain Controller’s NIC Private IP address to be static
+   - Set the domain controller’s NIC Private IP address to be static
 
-   - Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group and Vnet that         was created in Step 1A
+   - Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group and Vnet that was created in
+     Step 1A
      
-   - Ensure that both VMs are in the same Vnet (you can check the topology with Network Watcher
+   - make sure both VMs are in the same Virtual network (you can check the topology with Network Watcher)
 
 </p>
 <br />
 
 <p>
 
-Step 2 - Ensure Connectivity between the Client and Domain Controller
+Step 2 - Make sure Client 1 and Domain Controller are connected
   
 <img src="https://i.imgur.com/qnYM0ZO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
@@ -87,7 +88,7 @@ Step 2 - Ensure Connectivity between the Client and Domain Controller
 <img src="https://i.imgur.com/NSHRDEO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
- 1) Login to Client-1 with Remote Desktop and ping DC-1’s private IP address with ping -t <ipaddress>    (perpetual ping)
+ 1) Login to Client 1 with Remote Desktop and ping DC-1’s private IP address with ping -t <ipaddress> (perpetual ping)
   
     - Login to the Domain Controller and enable ICMPv4 in on the local windows Firewall
   
@@ -137,7 +138,7 @@ Step 3 - Install Active Directory
 
 <p>
 
-Step 4 - Create an Admin and Normal User Account in Active Directory
+Step 4 - Create both ADMIN and user Accounts in Active Directory
 
 <img src="https://i.imgur.com/w0SwJTY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
@@ -157,17 +158,17 @@ Step 4 - Create an Admin and Normal User Account in Active Directory
 
 
 
-1) In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) called “_EMPLOYEES”
+1) Go to Active Directory Users and Computers, create an Organizational Unit (OU) called “_EMPLOYEES”
 
 
    - Create a new OU named “_ADMINS”
 
 
-   - Create a new employee named “Nana Kessie” (same password) with the username of          “nana_admin”
+   - Create a new employee named “Nana Kessie” (same password) with the username of   “nana_admin”
 
    - Add nana_admin to the “Domain Admins” Security Group
 
-   - Log out/close the Remote Desktop connection to DC-1 and log back in as                  “mydomain.com\nana_admin”
+   - Log out/close the Remote Desktop connection to DC-1 and log back in as “mydomain.com\nana_admin”
 
    - User nana_admin as your admin account from now on
     
@@ -175,8 +176,7 @@ Step 4 - Create an Admin and Normal User Account in Active Directory
 
 <p>
   
-  Step 5 - Join Client-1 to your domain (mydomain.com)
-
+  Step 5 - Join Client-1 to your domain (mydomain.com\nana_admin)
 
    <img src="https://i.imgur.com/28Beaql.png" height="80%" width="80%" alt="Disk     Sanitization Steps"/>
 
