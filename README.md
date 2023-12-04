@@ -5,7 +5,11 @@
 <h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
 In this tutorial we will set up Active Directory within Azure Virtual Machines.<br />
 
+<p>
 
+Setting up Active Directory on a Windows 10 virtual machine involves installing the Active Directory Domain Services role, configuring domain parameters, creating a domain controller, and adding users and groups. It enables centralized management and authentication across a network, improving security and efficiency.
+
+</p>
 
 <h2>Environments and Technologies Used</h2>
 
