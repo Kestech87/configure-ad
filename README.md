@@ -39,20 +39,20 @@ Setting up Active Directory on a Windows 10 virtual machine involves installing 
   
   Step 1 - Create resources in Azure
   
-<img src="https://i.imgur.com/jsIifQR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/yqk1k7E.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
 <img src="https://i.imgur.com/Ln8rai9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
-<img src="https://i.imgur.com/wP8ZV4l.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5xmqBcc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
 <img src="https://i.imgur.com/tR5ramh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<img src="https://i.imgur.com/azawNfy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/UBMGLHC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<img src="https://i.imgur.com/tV5TG6a.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/2kju7w7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <img src="https://i.imgur.com/Vyk7Mzc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
