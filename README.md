@@ -53,11 +53,11 @@ Setting up Active Directory on a Windows 10 virtual machine involves installing 
 
 <img src="https://i.imgur.com/UBMGLHC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<img src="https://i.imgur.com/2kju7w7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/CNSZnLg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <img src="https://i.imgur.com/Vyk7Mzc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<img src="https://i.imgur.com/Jfr6p6j.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dPAnXpj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <img src="https://i.imgur.com/Zx3YXtz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
