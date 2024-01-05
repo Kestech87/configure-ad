@@ -40,10 +40,10 @@ Setting up Active Directory on a Windows 10 virtual machine involves installing 
   
   Step 1 - Create resources in Azure
   
-<img src="https://i.imgur.com/yqk1k7E.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6iWLnyo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
-<img src="https://i.imgur.com/Ln8rai9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ttSb0VI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
 <img src="https://i.imgur.com/5xmqBcc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
