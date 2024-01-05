@@ -15,7 +15,7 @@ Setting up Active Directory on a Windows 10 virtual machine involves installing 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
+- Microsoft Remote Desktop
 - Active Directory Domain Services
 - PowerShell
 
